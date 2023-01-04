@@ -22,7 +22,7 @@ try {
     listaProdutosSolicitadoDisponiveis.forEach(produto => console.log(`Este produto esta disponivel: ${produto}`));
 
     const listaProdutosSolicitadoNaoDisponiveis = listaArgumentos.filter(argumento => {
-        return !listaProdutosDisponiveis.find(produto => produto === argumeto);
+        return !listaProdutosDisponiveis.find(produto => produto === argumento);
     })
     listaProdutosSolicitadoNaoDisponiveis.forEach(argumento => console.log(`Este produto nao esta disponivel: ${argumento}`));
 
